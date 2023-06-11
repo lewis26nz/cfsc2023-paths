@@ -1,0 +1,13 @@
+name: cfsc2023_paths
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - spyder
+  - scipy
+  - numba
