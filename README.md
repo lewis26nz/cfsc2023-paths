@@ -8,7 +8,7 @@ It is provided for solely educational purposes. Use at your own risk; no express
 
 ### Installation
 
-Running the notebook requires `python` with some dependencies, including Jupyter lab (or at last notebooks). Only minimal dependencies are needed, so it is likely everything would work from the "base" environment of Anaconda. However, best practice is to make a new environment rather than rely on the base across projects.
+Running the notebook requires `python` with some dependencies, including Jupyter lab (or at least notebooks). Only minimal dependencies are needed, so it is likely everything would work from the "base" environment of Anaconda. However, best practice is to make a new environment rather than rely on the base across projects.
 
 If you have `conda`, you can create a virtual environment from a shell (terminal) command line (be sure your current working directory is the top of the repo) and open Jupyter with:
 
@@ -18,10 +18,9 @@ conda activate cfsc2023-paths
 jupyter lab
 ```
 
-If you are using Anaconda Navigator, you can navigate to the `Environments` tab, and use the menu options to build from the file `environment.yml`.  You can also use conda as above, and the environment should still be available within Navigator. In order to use the environment, you must select it from the drop down at the top of Navigator **before starting Jupyter Lab** in the GUI.
+If you are using Anaconda Navigator, you can go to the `Environments` tab, and use the menu options to build from the file `environment.yml`.  You can also use CLI conda as above, and the environment should still be available within Navigator. In order to use the environment, you must select it from the drop down at the top of Navigator **before starting Jupyter Lab** in the GUI.
 
-The main code is the notebook `analyze_reaction_times.ipynb` in the `notebooks` directory. The notebook assumes its working directory is `notebooks`, one level below 
-the top of the repo.
+The main code is the notebook `analyze_reaction_times.ipynb` in the `notebooks` directory. The notebook assumes its working directory is `notebooks`, one level below the top of the repo.
 
 ### Additional notes
 
